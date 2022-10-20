@@ -24,6 +24,7 @@
 - python manage.py shell
 - python manage.py sqlmigrate blog 0001
 - python manage.py createsuperuser
+- pip list
 
 ##### Querysets:
  <p>
@@ -48,3 +49,8 @@
     To update: <br>
     post.title = '' <br>
  </p>
+
+- user = Post.objects.get(id=1)
+- user.status = Post.Status.DRAFT
+- user.save()
+- Post.published.all()

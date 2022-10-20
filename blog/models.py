@@ -1,7 +1,16 @@
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
-# from datetime import datetime
+
+
+class PublishedManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(status=Post.Status.PUBLISHED)
+    
+
+class DraftManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(status=Post.Status.DRAFT)
 
 
 class Post(models.Model):
@@ -18,6 +27,9 @@ class Post(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     status = models.CharField(max_length=2, choices=Status.choices, default=Status.DRAFT)
+    
+    objects = models.Manager()  #the default manager
+    published = PublishedManager()  #our custom manager
     
     class Meta:
         ordering = ['-publish']
