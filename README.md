@@ -21,3 +21,6 @@
 - python --version
 - python -m django --version
 - pipenv install python-dotenv
+- python manage.py shell
+- python manage.py sqlmigrate blog 0001
+- python manage.py createsuperuser
