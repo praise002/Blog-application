@@ -24,3 +24,27 @@
 - python manage.py shell
 - python manage.py sqlmigrate blog 0001
 - python manage.py createsuperuser
+
+##### Querysets:
+ <p>
+    Post.objects.filter(publish__year__in=[2022, 2023]) <br>
+    Post.objects.filter(publish__year__gte=2022) <br>
+    Post.objects.filter(title__iendswith='Django') <br>
+    import datetime <br>
+    Post.objects.filter(publish__date=datetime.date(2022, 10, 20)) <br>
+    Post.objects.filter(publish__year__range=(2022, 2023)) <br>
+    User.objects.filter(first_name__isnull=True)   <br>
+    Post.objects.filter(title__iregex=r'^(who|new) +')     <br>
+    Post.objects.filter(publish__year=2022, author__username='admin') <br>
+    Post.objects.filter(publish__year=2022).filter(author__username='admin') <br>
+    Post.objects.filter(publish__year=2022).exclude(title__istartswith='why') <br>
+    Post.objects.order_by('-title') <br>
+    post = Post.objects.get(id=3) <br>
+    post.delete() <br>
+    user = User.objects.get(username='admin') <br>
+    post = Post(title='', slug='', body='', author=admin) <br>
+    post.save() <br>
+    Post.objects.create()<br>
+    To update: <br>
+    post.title = '' <br>
+ </p>
