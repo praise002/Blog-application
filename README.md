@@ -54,3 +54,7 @@
 - user.status = Post.Status.DRAFT
 - user.save()
 - Post.published.all()
+
+
+###### Notes
+- Specify an app_name='appname' in app.urls.py then specify a namespace in project.urls.py
