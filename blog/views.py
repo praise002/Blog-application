@@ -3,6 +3,7 @@ from django.http import Http404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import ListView
 from . models import Post
+from . forms import EmailPostForm
 
 
 class PostListView(ListView):
@@ -40,3 +41,21 @@ def post_detail(request, year, month, day, post):
                             publish__day=day)
     context = {'post': post}
     return render(request, 'blog/post/detail.html', context)
+
+
+def post_share(request, post_id):
+    # Retrieve post by id
+    post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
+    if request.method == 'POST':
+        # Form was submitted
+        form = EmailPostForm(data=request.POST)
+        if form.is_valid():
+            # Form fields passed validation
+            cd = form.cleaned_data  #a dict of form fields and their values
+            #...send email
+        else:
+            form = EmailPostForm()
+            
+    context = {'post': post,
+            'form': form}
+    return render(request, 'blog/post/share.html', context)
