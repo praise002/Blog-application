@@ -7,7 +7,10 @@ from . models import Post
 def post_list(request):
     post_list = Post.published.all()
     #pagination with 3 post per page
-    paginator = Paginator(post_list, 3)
+    paginator = Paginator(post_list, 3)  #instantiate it with d no of objects to return per page
+    page_number = request.GET.get('page', 1)  #we retrieve d page and store it in page_number variable
+    posts = paginator.page(page_number)  #obtain result for desired page
+    
     context = {'posts': posts}
     return render(request, 'blog/post/list.html', context)
 
