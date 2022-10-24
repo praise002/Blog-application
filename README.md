@@ -58,3 +58,9 @@
 
 ###### Notes
 - Specify an app_name='appname' in app.urls.py then specify a namespace in project.urls.py
+- To create a custom manager
+   1. students = models.Manager(): it inherits everything from the object manager
+   2. Student.students.all()
+   - method 2
+      1. Create a ModelManager inheriting from models.Manager and override get_queryset() by adding a filter()
+      2. new_manager = ModelManager()
