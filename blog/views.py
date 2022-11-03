@@ -3,8 +3,9 @@ from django.http import Http404
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import ListView
 from django.core.mail import send_mail
-from . models import Post
-from . forms import EmailPostForm
+from django.views.decorators.http import require_POST
+from . models import Post, Comment
+from . forms import EmailPostForm, CommentForm
 
 
 class PostListView(ListView):
@@ -40,7 +41,15 @@ def post_detail(request, year, month, day, post):
                             publish__year=year,
                             publish__month=month,
                             publish__day=day)
-    context = {'post': post}
+    # List of active comments for this post
+    comments = post.comments.filter(active=True)
+    # Form for users to comment
+    form = CommentForm()
+    context = {
+        'post': post,
+        'comments': comments,
+        'form': form
+        }
     return render(request, 'blog/post/detail.html', context)
 
 
@@ -72,3 +81,24 @@ def post_share(request, post_id):
             'form': form,
             'sent': sent}
     return render(request, 'blog/post/share.html', context)
+
+
+def post_comment(request, post_id):
+    post = get_object_or_404(Post, id=post_id, status=Post.Status.PUBLISHED)
+    comment = None 
+    #A comment was posted
+    form = CommentForm(data=request.POST)
+    if form.is_valid():
+        # Create a comment object without sending it to the database
+        comment = form.save(commit=False)
+        # Assign the post to the comment
+        comment.post = post
+        # Save the comment to the database
+        comment.save()
+        
+    context = {
+        'post': post, 
+        'form': form, 
+        'comment': comment
+    }
+    return render(request, 'blog/post/comment.html', context)
