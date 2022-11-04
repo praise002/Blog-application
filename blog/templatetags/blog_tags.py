@@ -3,7 +3,9 @@
 
 from django import template
 from django.db.models import Count
+from django.utils.safestring import mark_safe
 from ..models import Post
+import markdown
 
 register = template.Library()  #used to register the template tag
 # Django will use the function name as the tag name
@@ -23,3 +25,7 @@ def get_most_commented_posts(count=5): #count is a default
     return Post.published.annotate(
         total_comments=Count('comments')
     ).order_by('-total_comments')[:count]
+    
+@register.filter(name='markdown')  #markdown will be used in templates
+def markdown_format(text):
+    return mark_safe(markdown.markdown(text))

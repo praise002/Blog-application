@@ -26,6 +26,7 @@
 - python manage.py createsuperuser
 - pip list
 - pipenv install django-taggit==3.0.0
+- pipenv install markdown==3.4.1
 
 ##### Querysets:
  <p>
