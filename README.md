@@ -25,6 +25,7 @@
 - python manage.py sqlmigrate blog 0001
 - python manage.py createsuperuser
 - pip list
+- pipenv install django-taggit==3.0.0
 
 ##### Querysets:
  <p>
