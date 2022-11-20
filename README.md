@@ -27,7 +27,9 @@
 - pip list
 - pipenv install django-taggit==3.0.0
 - pipenv install markdown==3.4.1
-
+- pipenv install psycopg2-binary==2.9.3
+- python -Xutf8 manage.py dumpdata --indent=2 --output=mysite_data.json
+- python manage.py loaddata mysite_data.json
 ##### Querysets:
  <p>
     Post.objects.filter(publish__year__in=[2022, 2023]) <br>

@@ -1,0 +1,1169 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-10-20T16:09:10.300Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Who is Django Reinhardt?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-10-20T15:12:27.238Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Who is Django Reinhardt?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-10-21T05:15:14.013Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Who is Django Reinhardt?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-10-24T12:16:02.123Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Artificial Intelligence",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-10-24T12:18:03.105Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "What is machine learning?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-10-24T12:19:08.956Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "What is python used for?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-10-24T12:19:37.636Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "What is python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-11-03T04:33:59.602Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Comment by Tomi on What is python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-11-04T16:33:24.488Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "What is python used for?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-11-04T16:33:35.050Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "What is machine learning?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2022-11-04T16:34:39.440Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Who is miles dAvis?",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2022-11-04T16:35:23.518Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Artificial Intelligence",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2022-11-04T16:35:44.982Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Who is miles Davis?",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2022-11-04T16:38:44.450Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "What is python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2022-11-04T21:14:14.840Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Markdown post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2022-11-04T21:15:09.679Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2022-11-04T21:15:55.739Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2022-11-04T21:16:27.018Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2022-11-04T21:17:20.562Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2022-11-04T21:20:54.171Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2022-11-04T21:21:52.485Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "Markdown post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2022-11-16T19:12:25.212Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add student",
+    "content_type": 8,
+    "codename": "add_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change student",
+    "content_type": 8,
+    "codename": "change_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete student",
+    "content_type": 8,
+    "codename": "delete_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view student",
+    "content_type": 8,
+    "codename": "view_student"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 9,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 9,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 9,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 9,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 10,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 10,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 10,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 10,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 11,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 11,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 11,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 11,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 12,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 12,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 12,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 12,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$320000$TtsS6Icjl0eFhgTNpYGrTu$hNpXYygSYKOp4GjB2aGbRT3RyDjW+47j6jtsm1pDxBY=",
+    "last_login": "2022-11-20T13:55:11.489Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-10-20T16:04:29.023Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "student",
+    "model": "student"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h6genjkmry6kcp3cc6q64dgogodlpv7b",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlkO3_FCSc8ZrL-ZBFAsZakQd0eRUkD7Zua9TcFtHcq26FxGMRfTmdPvRshPnXYgD5zuzXKb1nkkuyv2oIu9NdHX9XD_DgZchr12cIYYNVRiJaWUCHovXXUUYiDMkHyqEIQTCOcQap-VvQN0ijGL-XwB-Fs4dw:1olY2o:EXq9hueyBDTjSuo9pvgmLAZhW_g4nA6Wjx7in-bbo3k",
+    "expire_date": "2022-11-03T16:05:18.010Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o0p7y1j3m5nirvz3b5z31zqcc0ppoag9",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlkO3_FCSc8ZrL-ZBFAsZakQd0eRUkD7Zua9TcFtHcq26FxGMRfTmdPvRshPnXYgD5zuzXKb1nkkuyv2oIu9NdHX9XD_DgZchr12cIYYNVRiJaWUCHovXXUUYiDMkHyqEIQTCOcQap-VvQN0ijGL-XwB-Fs4dw:1oqytL:LgJ9B7dadtg9lEhS74e9DxIpAcYk-WbpCx0juzZWlRg",
+    "expire_date": "2022-11-18T15:45:59.578Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y3tiuah9x3y2hheodegx0g3xt1l72t4g",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyGwS5F69O43NAu7laqBpLQn47_bJj3oHOe9mbcaaF3ysDaZh4nVRVl1-u0ipaeUHfCDyr3qVMsyT1Hvij5o07fK8roe7t9Bppa3NXF37qwwoQGTCD0EBkRnka0R3AI2urEDl_pgYoAeQxCgMXgPLE59vr-zNss:1owkmt:ghPGb9F3o9uOrTLfKH3vwxx44kxxCQ-gqKQ-ynNPKVc",
+    "expire_date": "2022-12-04T13:55:11.500Z"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Who is Django Reinhardt?",
+    "slug": "what-is-django-reinhardt",
+    "author": 1,
+    "body": "Jean Reinhardt (23 January 1910 – 16 May 1953), known by his Romani nickname Django (French: [dʒãŋɡo ʁɛjnaʁt] or [dʒɑ̃ɡo ʁenɑʁt]), was a Romani-French jazz guitarist and composer. He was one of the first major jazz talents to emerge in Europe and has been hailed as one of its most significant exponents.[2][3]\r\n\r\nWith violinist Stéphane Grappelli,[1] Reinhardt formed the Paris-based Quintette du Hot Club de France in 1934. The group was among the first to play jazz that featured the guitar as a lead instrument.[4] Reinhardt recorded in France with many visiting American musicians, including Coleman Hawkins and Benny Carter, and briefly toured the United States with Duke Ellington's orchestra in 1946. He died suddenly of a stroke in 1953 at the age of 43.\r\n\r\nReinhardt's most popular compositions have become standards within gypsy jazz, including \"Minor Swing\",[5] \"Daphne\", \"Belleville\", \"Djangology\", \"Swing '42\", and \"Nuages\". Jazz guitarist Frank Vignola says that nearly every major popular-music guitarist in the world has been influenced by Reinhardt.[6] Over the last few decades, annual Django festivals have been held throughout Europe and the U.S., and a biography has been written about his life.[2] In February 2017, the Berlin International Film Festival held the world premiere of the French film Django.",
+    "publish": "2022-10-20T16:07:26Z",
+    "created": "2022-10-20T16:09:10.297Z",
+    "updated": "2022-10-21T05:15:14.009Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "New title",
+    "slug": "another-post",
+    "author": 1,
+    "body": "Post body",
+    "publish": "2022-10-20T16:30:22.883Z",
+    "created": "2022-10-20T16:30:31.018Z",
+    "updated": "2022-10-20T16:38:04.645Z",
+    "status": "DF"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 3,
+  "fields": {
+    "title": "Artificial Intelligence",
+    "slug": "artificial-intelligence",
+    "author": 1,
+    "body": "Artificial intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think like humans and mimic their actions. The term may also be applied to any machine that exhibits traits associated with a human mind such as learning and problem-solving.\r\n\r\nThe ideal characteristic of artificial intelligence is its ability to rationalize and take actions that have the best chance of achieving a specific goal. A subset of artificial intelligence is machine learning (ML), which refers to the concept that computer programs can automatically learn from and adapt to new data without being assisted by humans. Deep learning techniques enable this automatic learning through the absorption of huge amounts of unstructured data such as text, images, or video.\r\n\r\nKEY TAKEAWAYS",
+    "publish": "2022-10-24T12:14:41Z",
+    "created": "2022-10-24T12:16:02.118Z",
+    "updated": "2022-11-04T16:35:23.506Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 4,
+  "fields": {
+    "title": "What is machine learning?",
+    "slug": "what-is-machine-learning",
+    "author": 1,
+    "body": "Machine learning (ML) is a discipline of artificial intelligence (AI) that provides machines with the ability to automatically learn from data and past experiences while identifying patterns to make predictions with minimal human intervention.\r\n\r\nMachine learning methods enable computers to operate autonomously without explicit programming. ML applications are fed with new data, and they can independently learn, grow, develop, and adapt.\r\n\r\nMachine learning derives insightful information from large volumes of data by leveraging algorithms to identify patterns and learn in an iterative process. ML algorithms use computation methods to learn directly from data instead of relying on any predetermined equation that may serve as a model.\r\n\r\nThe performance of ML algorithms adaptively improves with an increase in the number of available samples during the ‘learning’ processes. For example, deep learning is a sub-domain of machine learning that trains computers to imitate natural human traits like learning from examples. It offers better performance parameters than conventional ML algorithms.\r\n\r\nWhile machine learning is not a new concept – dating back to World War II when the Enigma Machine was used – the ability to apply complex mathematical calculations automatically to growing volumes and varieties of available data is a relatively recent development.",
+    "publish": "2022-10-24T12:17:42Z",
+    "created": "2022-10-24T12:18:03.101Z",
+    "updated": "2022-11-04T16:33:35.038Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "What is python used for?",
+    "slug": "what-is-python-used-for",
+    "author": 1,
+    "body": "Python is commonly used for developing websites and software, task automation, data analysis, and data visualization. Since it’s relatively easy to learn, Python has been adopted by many non-programmers such as accountants and scientists, for a variety of everyday tasks, like organizing finances.\r\n\r\n“Writing programs is a very creative and rewarding activity,” says University of Michigan and Coursera instructor Charles R Severance in his book Python for Everybody. “You can write programs for many reasons, ranging from making your living to solving a difficult data analysis problem to having fun to helping someone else solve a problem.”\r\n\r\nWhat can you do with python? Some things include:\r\n\r\nData analysis and machine learning\r\n\r\nWeb development\r\n\r\nAutomation or scripting\r\n\r\nSoftware testing and prototyping\r\n\r\nEveryday tasks",
+    "publish": "2022-10-24T12:18:51Z",
+    "created": "2022-10-24T12:19:08.950Z",
+    "updated": "2022-11-04T16:33:24.470Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "What is python",
+    "slug": "what-is-python",
+    "author": 1,
+    "body": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming",
+    "publish": "2022-10-24T12:19:22Z",
+    "created": "2022-10-24T12:19:37.633Z",
+    "updated": "2022-11-04T16:38:44.438Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Who is miles Davis?",
+    "slug": "who-is-miles-davis",
+    "author": 1,
+    "body": "Miles Davis, in full Miles Dewey Davis III, (born May 26, 1926, Alton, Illinois, U.S.—died September 28, 1991, Santa Monica, California), American jazz musician, a great trumpeter who as a bandleader and composer was one of the major influences on the art from the late 1940s.\r\n\r\nStarting out\r\nDavis grew up in East St. Louis, Illinois, where his father was a prosperous dental surgeon. (In later years he often spoke of his comfortable upbringing, sometimes to rebuke critics who assumed that a background of poverty and suffering was common to all great jazz artists.) He began studying trumpet in his early teens; fortuitously, in light of his later stylistic development, his first teacher advised him to play without vibrato. Davis played with jazz bands in the St. Louis area before moving to New York City in 1944 to study at the Institute of Musical Art (now the Juilliard School)—although he skipped many classes and instead was schooled through jam sessions with masters such as Dizzy Gillespie and Charlie Parker. Davis and Parker recorded together often during the years 1945–48.\r\n\r\nBackground: acoustic guitar side view, string, fingerboard, music\r\nBRITANNICA QUIZ\r\nMusic: Fact or Fiction?\r\nWas Mozart murdered? Was Lady Gaga really born that way? And did the Jefferson Airplane start out as a classical music group? Settle the score with this quiz.\r\nDavis’s early playing was sometimes tentative and not always fully in tune, but his unique, intimate tone and his fertile musical imagination outweighed his technical shortcomings. By the early 1950s Davis had turned his limitations into considerable assets. Rather than emulate the busy, wailing style of such bebop pioneers as Gillespie, Davis explored the trumpet’s middle register, experimenting with harmonies and rhythms and varying the phrasing of his improvisations. With the occasional exception of multinote flurries, his melodic style was direct and unornamented, based on quarter notes and rich with inflections. The deliberation, pacing, and lyricism in his improvisations are striking.\r\n\r\nCool jazz and modal jazz\r\nMiles Davis\r\nMiles Davis\r\nIn the summer of 1948, Davis formed a nonet that included the renowned jazz artists Gerry Mulligan, J.J. Johnson, Kenny Clarke, and Lee Konitz, as well as players on French horn and tuba, instruments rarely heard in a jazz context. Mulligan, Gil Evans, and pianist John Lewis did most of the band’s arrangements, which juxtaposed the flexible, improvisatory nature of bebop with a thickly textured orchestral sound. The group was short-lived but during its brief history recorded a dozen tracks that were originally released as singles (1949–50). These recordings changed the course of modern jazz and paved the way for the West Coast styles of the 1950s. The tracks were later collected in the album Birth of the Cool (1957).\r\n\r\nDuring the early 1950s Davis struggled with a drug addiction that affected his playing, yet he still managed to record albums that rank among his best, including several with such jazz notables as Sonny Rollins, Milt Jackson, and Thelonious Monk. In 1954, having overcome the addiction, Davis embarked on a two-decade period during which he was considered the most innovative musician in jazz. He formed classic small groups in the 1950s that featured saxophone legends John Coltrane and Cannonball Adderley, pianists Red Garland and Bill Evans, bassist Paul Chambers, and drummers “Philly” Joe Jones and Jimmy Cobb. Davis’s albums recorded during this era, including ’Round About Midnight (1956), Workin’ (1956), Steamin’ (1956), Relaxin’ (1956), and Milestones (1958), affected the work of numerous other artists. He capped this period of his career with Kind of Blue (1959), perhaps the most celebrated album in the history of jazz. A mellow, relaxed collection, the album includes the finest recorded examples of modal jazz, a style in which improvisations are based upon sparse chords and nonstandard scales rather than on complex, frequently changing chords. The modal style lends itself to solos that are focused on melody; this accessible quality ensured Kind of Blue’s popularity with jazz fans.\r\n\r\nReleased concurrently with the small-group recordings, Davis’s albums with pieces arranged and conducted by Gil Evans—Miles Ahead (1957), Porgy and Bess (1958), and Sketches of Spain (1960)—were also monuments of the genre. The Davis-Evans collaborations were marked by complex arrangements, a near-equal emphasis on orchestra and soloist, and some of Davis’s most soulful and emotionally powerful playing. Davis and Evans occasionally collaborated in later years, but never again so memorably as on these three masterful albums.\r\n\r\nGet a Britannica Premium subscription and gain access to exclusive content.\r\nSubscribe Now\r\nFree jazz and fusion\r\nThe early 1960s were transitional, less-innovative years for Davis, although his music and his playing remained top-calibre. He began forming another soon-to-be-classic small group in late 1962 with bassist Ron Carter, pianist Herbie Hancock, and teenage drummer Tony Williams; tenor saxophonist Wayne Shorter joined the lineup in 1964. Davis’s new quintet was characterized by a light, free sound and a repertoire that extended from the blues to avant-garde and free jazz. Compared with the innovations of other modern jazz groups of the 1960s, the Davis quintet’s experimentations in polyrhythm and polytonality were more subtle but equally daring. Live at the Plugged Nickel (1965), E.S.P. (1965), Miles Smiles (1966), and Nefertiti (1967) were among the quintet’s timeless, influential recordings. About the time of Miles in the Sky and Filles de Kilimanjaro (both 1968), Davis began experimenting with electronic instruments. With other musicians, including keyboardists Chick Corea and Joe Zawinul and guitarist John McLaughlin, Davis cut In a Silent Way (1969), regarded as the seminal album of the jazz fusion movement. It was considered by purists to be Davis’s last true jazz album.\r\n\r\nDavis won new fans and alienated old ones with the release of Bitches Brew (1969), an album on which he fully embraced the rhythms, electronic instrumentation, and studio effects of rock music. A cacophonous kaleidoscope of layered sounds, rhythms, and textures, the album’s influence was heard in such 1970s fusion groups as Weather Report and Chick Corea’s Return to Forever. Davis continued in this style for a few years, with the album Live-Evil (1970) and the film soundtrack A Tribute to Jack Johnson (1970) being particular highlights.\r\n\r\nLegacy\r\nDavis was injured in an auto accident in 1972, curtailing his activities, then retired from 1975 through 1980. When he returned to public notice with The Man with the Horn (1981), critics felt that Davis’s erratic playing showed the effects of his five-year layoff, but he steadily regained his powers during the next few years. He dabbled in a variety of musical styles throughout the 1980s, concentrating mostly on jazz-rock dance music, but there were also notable experiments in other styles, such as a return to his blues roots (Star People, 1982) and a set of Gil Evans-influenced orchestral numbers (Music from Siesta, 1987). Davis won several Grammy Awards during this period for such albums as We Want Miles (1982), Tutu (1986), and Aura (1989). One of the most-memorable events of Davis’s later years occurred at the Montreux Jazz Festival in 1991, when he joined with an orchestra conducted by Quincy Jones to perform some of the classic Gil Evans arrangements of the late 1950s. Davis died less than three months later. His final album, Doo-Bop (1992), was released posthumously.\r\n\r\nAlthough critics dismissed much of the music Davis released after Bitches Brew, his excursions helped keep jazz popular with mainstream audiences. In later years he ignored the critics, and he defied convention by wandering around the stage, often playing with his back to the audience. In his much-praised and revealing autobiography, Miles (1989; with Quincy Troupe), he wrote frankly of his hedonistic past and of the racism he saw in the music industry. Along with Louis Armstrong, Duke Ellington, and Charlie Parker, Davis is regarded as one of the four most important and influential musicians in jazz history, as well as the music’s most eclectic practitioner.\r\n\r\nThe Editors of Encyclopaedia Britannica\r\nThis article was most recently revised and updated by Amy Tikkanen.\r\nCicely Tyson\r\nIntroduction\r\nFast Facts\r\nFacts & Related Content\r\nQuizzes\r\nMedia\r\nImages\r\nMore\r\nMore Articles On This Topic\r\nContributors\r\nArticle History\r\nRelated Biographies\r\nJulie Harris.\r\nJulie Harris\r\nAmerican actress\r\nRita Moreno in West Side Story (1961)\r\nRita Moreno\r\nAmerican dancer, singer, and actress\r\nJames Earl Jones\r\nJames Earl Jones\r\nAmerican actor\r\nLouis Gossett, Jr.\r\nLouis Gossett, Jr.\r\nAmerican actor\r\nSee All\r\nHome\r\nEntertainment & Pop Culture\r\nActors\r\nCicely Tyson\r\nAmerican actress\r\n    \r\nBy The Editors of Encyclopaedia Britannica Edit History\r\nCicely Tyson\r\nCicely Tyson\r\nSee all media\r\nBorn: December 19, 1924 New York City New York\r\nDied: January 28, 2021 (aged 96)\r\nAwards And Honors: Academy Award (2018) Presidential Medal of Freedom (2016) Tony Awards (2013) Emmy Award (1994)\r\nCicely Tyson, (born December 19, 1924, Harlem, New York, New York, U.S.—died January 28, 2021), American model and actress noted for her vivid portrayals of strong African American women.\r\n\r\nTyson’s birth year is generally believed to be 1924, though some sources give 1933. She was the daughter of immigrants from the Caribbean island of Nevis, and she grew up in a devoutly religious household in Harlem. Discovered by a fashion editor at Ebony magazine, she quickly rose to the top of the modeling world. In 1957 she began acting in Off-Broadway productions, and the following decade she appeared in several short-lived Broadway shows. Tyson won minor roles in a few feature films before portraying Portia in the 1968 film version of Carson McCullers’s The Heart Is a Lonely Hunter.\r\n\r\nUSA 2006 - 78th Annual Academy Awards. Closeup of giant Oscar statue at the entrance of the Kodak Theatre in Los Angeles, California. Hompepage blog 2009, arts and entertainment, film movie hollywood\r\nBRITANNICA QUIZ\r\nPop Culture Quiz\r\nAre you a princess of Pop? The king of Culture? See if you’re an entertainment expert by answering these questions.\r\nBecause she was committed to presenting only positive images of Black women, Tyson initially did not have steady work in film and television. Her next notable role was as Rebecca Morgan in the popular and critically acclaimed film Sounder (1972), for which she received an Academy Award nomination for best actress. In 1974 she appeared in perhaps her best-known role, that of the title character in the television drama The Autobiography of Miss Jane Pittman, adapted from the eponymous novel by Ernest J. Gaines. Her performance as a 110-year-old woman whose life is depicted from slavery up through the civil rights movement of the 1960s won Tyson two Emmy Awards.\r\n\r\nRoots\r\nRoots\r\nTyson subsequently took on supporting roles in the television miniseries Roots (1977; based on Alex Haley’s book) and The Women of Brewster Place (1989; based on Gloria Naylor’s novel) before winning another Emmy for her performance in the TV movie Oldest Living Confederate Widow Tells All (1994). She then starred as the title character in a 1998 television adaptation of Haley’s Mama Flora’s Family. In the 2010s she had recurring roles on House of Cards and How to Get Away with Murder. She also was a cast member of the series Cherish the Day, which debuted in 2020.\r\n\r\nTyson’s additional feature film credits included Fried Green Tomatoes (1991), Hoodlum (1997), The Help (2011), and several popular movies directed by Tyler Perry. In 2013 she returned to Broadway, after nearly 30 years, to play the lead in a revival of Horton Foote’s The Trip to Bountiful; her performance earned her a Tony Award. She also starred in the 2014 television adaptation of the play. In 2015–16 she appeared in the Broadway production of The Gin Game.\r\n\r\nApart from her acting career, Tyson was known for her relationship with jazz musician Miles Davis (married 1981–88). She was honoured by the Congress of Racial Equality, the National Association for the Advancement of Colored People, and the National Council of Negro Women. In 1977 she was inducted into the Black Filmmakers Hall of Fame. She was named a Kennedy Center honoree in 2015. The following year Tyson was awarded the Presidential Medal of Freedom. In 2018 she received an honorary Academy Award. Tyson’s memoir, Just As I Am (written with Michelle Burford), was released days before her death in 2021.\r\n\r\nGet a Britannica Premium subscription and gain access to exclusive content.\r\nSubscribe Now\r\nThe Editors of Encyclopaedia Britannica\r\nThis article was most recently revised and updated by Amy Tikkanen.",
+    "publish": "2022-11-04T16:34:14Z",
+    "created": "2022-11-04T16:34:39.425Z",
+    "updated": "2022-11-04T16:35:44.973Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "Markdown post",
+    "slug": "markdown-post",
+    "author": 1,
+    "body": "This is a post formatted with markdown\r\n\r\n------------------------------------------------------------------\r\n\r\n*This is an emphasized* and **this is more emphasized**\r\n\r\nHere is a list:\r\n\r\n * One\r\n * Two\r\n * Three\r\n\r\nAnd a [link to the Django website](https://djangoproject.com/).",
+    "publish": "2022-11-04T21:10:46Z",
+    "created": "2022-11-04T21:14:14.824Z",
+    "updated": "2022-11-04T21:21:52.469Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 6,
+    "name": "Tomi",
+    "email": "tomi@gmail.com",
+    "body": "This is the best article that clearly explains python in simple words. Straight to the point and no waste of time. I recommend you read this. See ya!",
+    "created": "2022-11-03T04:33:59.602Z",
+    "updated": "2022-11-03T04:33:59.602Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 6,
+    "name": "Tom",
+    "email": "tom@gmail.com",
+    "body": "I enjoyed reading this article.",
+    "created": "2022-11-03T05:18:22.514Z",
+    "updated": "2022-11-03T05:18:22.514Z",
+    "active": true
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "jazz",
+    "slug": "jazz"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "python",
+    "slug": "python"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 3,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 4
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 3,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 3
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 12,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 13,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 14,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+}
+]
