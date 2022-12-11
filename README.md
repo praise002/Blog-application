@@ -30,6 +30,12 @@
 - pipenv install psycopg2-binary==2.9.3
 - python -Xutf8 manage.py dumpdata --indent=2 --output=mysite_data.json
 - python manage.py loaddata mysite_data.json
+
+- pipenv install gunicorn
+- pip freeze > requirements.txt
+- python --version
+- pipenv install whitenoise
+- python manage.py collectstatic
 ##### Querysets:
  <p>
     Post.objects.filter(publish__year__in=[2022, 2023]) <br>
